@@ -5,3 +5,6 @@
 
 ここに登録したいユーザー名を入力します。
 <img width="1440" alt="3" src="https://github.com/mac1755/kigi_portfolio/assets/62489465/fbcdefcc-679a-4c0c-b144-df750512d461">
+
+登録したユーザー名でログインします。
+<img width="1440" alt="4" src="https://github.com/mac1755/kigi_portfolio/assets/62489465/2fb6a48e-96a3-48ee-871b-3ec38d1ccf41">
