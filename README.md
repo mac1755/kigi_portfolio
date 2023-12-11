@@ -11,7 +11,6 @@
 
 メイン画面が出ましたら見たいニュースカテゴリをプルダウンで選択します。
 <img width="1440" alt="5" src="https://github.com/mac1755/kigi_portfolio/assets/62489465/feabab5e-f7f9-45c5-8d0a-43f5571392ca">
-<img width="1440" alt="6" src="https://github.com/mac1755/kigi_portfolio/assets/62489465/5409e9e3-55b2-4980-ae69-c5075b3cedfe">
 
 その日のYahooニュースで選択したカテゴリーのニュースが一覧で表示されます。
 ニュースのタイトルを選択すると記事の詳細ページにいきます。
@@ -20,3 +19,8 @@
 
 記事の詳細画面ではその記事をデータベースに保存して、いつでも見れるようにできます。
 <img width="1440" alt="8" src="https://github.com/mac1755/kigi_portfolio/assets/62489465/4d9b7025-5082-4a12-a242-1e3a567fd397">
+
+
+ユーザーの登録ニュース一覧にニュースが追加され、詳細を見る画面では記事を削除できます。
+<img width="1440" alt="9" src="https://github.com/mac1755/kigi_portfolio/assets/62489465/d4bfc022-b4df-48e3-aa2e-49c68a636e5d">
+<img width="1440" alt="10" src="https://github.com/mac1755/kigi_portfolio/assets/62489465/414ee403-2396-474b-9836-51a810736641">
