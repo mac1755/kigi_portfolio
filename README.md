@@ -17,3 +17,6 @@
 ニュースのタイトルを選択すると記事の詳細ページにいきます。
 <img width="1440" alt="6" src="https://github.com/mac1755/kigi_portfolio/assets/62489465/5409e9e3-55b2-4980-ae69-c5075b3cedfe">
 <img width="1440" alt="7" src="https://github.com/mac1755/kigi_portfolio/assets/62489465/761c5046-b582-41e5-909f-82c0ba17ebcf">
+
+記事の詳細画面ではその記事をデータベースに保存して、いつでも見れるようにできます。
+<img width="1440" alt="8" src="https://github.com/mac1755/kigi_portfolio/assets/62489465/4d9b7025-5082-4a12-a242-1e3a567fd397">
