@@ -24,3 +24,18 @@
 ユーザーの登録ニュース一覧にニュースが追加され、詳細を見る画面では記事を削除できます。
 <img width="1440" alt="9" src="https://github.com/mac1755/kigi_portfolio/assets/62489465/d4bfc022-b4df-48e3-aa2e-49c68a636e5d">
 <img width="1440" alt="10" src="https://github.com/mac1755/kigi_portfolio/assets/62489465/414ee403-2396-474b-9836-51a810736641">
+
+
+## 使用言語
+- Python
+- HTML (jinjer template)
+- CSS (BootStrap)
+
+## フレームワーク
+- Flask
+
+## データベース
+- MySQL
+
+## 動作環境について
+> 動作はローカル環境にてApache Serverを用いて行いました。
