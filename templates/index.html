@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block header %}
+<link rel="stylesheet" href="/static/css/style.css">
+{% endblock %}
+
+{% block body %}
+<div class="container ">
+    <div class="title text-center">
+        <h1>記事助 メインメニュー</h1>
+    </div>
+    <div class="text-center">
+        <form method="POST">
+            <div class="d-grid gap-2 col-6 mx-auto w-auto">
+                <select class="form-select form-select-lg mb-3" name="category">
+                    <option value="{{ category['domestic'] }}">{{ category['domestic'] }}</option>
+                    <option value="{{ category['world'] }}">{{ category['world'] }}</option>
+                    <option value="{{ category['business'] }}">{{ category['business'] }}</option>
+                    <option value="{{ category['entertainment'] }}">{{ category['entertainment'] }}</option>
+                    <option value="{{ category['sports'] }}">{{ category['sports'] }}</option>
+                    <option value="{{ category['it'] }}">{{ category['it'] }}</option>
+                    <option value="{{ category['science'] }}">{{ category['science'] }}</option>
+                </select>
+                <input class="select-box-btn btn btn-outline-success btn-lg w-auto" type="submit" value="選択">
+            </div>
+        </form>
+    </div>
+    <div class="text-center mt-3">
+        <a class="btn btn-outline-danger btn-lg mx-3" href="/login">ログアウト</a>
+        <a class="btn btn-outline-info btn-lg mx-3" href="/set_news">お気に入り記事</a>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,31 @@
+
+/* Index.html <- Start -> */
+.title {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.set-margin {
+    margin-bottom: 30px;
+}
+
+.select-box {
+    width: 250px;
+}
+
+.select-box-btn {
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.btn-wraper {
+    display: flex;
+    align-items: center;
+}
+/* Index.html <- End ->*/
+
+.table-text {
+    font-size: 18px;
+    font-style: oblique;
+}

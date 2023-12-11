@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block header %}{% endblock %}
+{% block category %}{% endblock %}
+{% block body %}
+<div class="container">
+    <h2>{{ news_data[0]['news_title'] }}</h2>
+    <p>{{ news_data[0]['news_body'] }}</p>
+    <form method="post">
+        <input class="btn btn-outline-danger btn-lg mx-3 w-100" type="submit" name="delete" value="この記事を削除する">
+    </form>
+    <a class="btn btn-outline-info btn-lg mt-3 mb-3 w-100" href="/set_news">記事一覧に戻る</a>
+</div>
+{% endblock %}

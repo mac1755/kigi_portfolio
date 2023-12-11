@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block category %}{% endblock %}
+{% block header %}
+<link rel="stylesheet" href="/static/css/style.css">
+{% endblock %}
+{% block body %}
+<div class="container">
+    <a class="btn btn-outline-info btn-lg mt-3 mb-3" role="button" href="/">TOPへ戻る</a>
+    <table class="table table-success table-striped">
+        <tbody>
+            {% for _ in range(counter) %}
+            <tr>
+                <td>
+                    <a  class="table-text" href="/news/{{ _ }}">{{ news_data['news_item_title'][_] }}</p></a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

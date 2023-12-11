@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block header %}{% endblock%}
+{% block category %}{% endblock %}
+{% block body %}
+<div class="container">
+    <div class="bt-3 bb-4">
+        <h1>{{ news_title }}</h1>
+    </div>
+        <div class="border-success">{{ news_content }}</div>
+    <form method="post">
+        <input class="btn btn-outline-warning btn-lg mt-3 mb-3 w-100" type="submit" value="登録する" name="register">
+    </form>
+    <a class="btn btn-outline-info btn-lg mt-3 mb-3 w-100" href="/result">戻る</a>
+</div>
+{% endblock %}

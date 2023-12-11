@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block header %}{% endblock %}
+{% block category %}{% endblock %}
+{% block body %}
+<div class="container text-center">
+<h1>新規ユーザー登録</h1>
+<form method="post">
+    <input class="form-control form-control-lg" placeholder="ユーザー名" type="text" name="register_name">
+    <input class="btn btn-outline-info btn-lg mt-3 mb-3 w-100" type="submit" value="登録する">
+</form>
+<div>
+    <a class="btn btn-outline-success btn-lg mt-3 mb-3 w-100" href="/login">ログイン画面に戻る</a>
+</div>
+</div>
+{% endblock %}
